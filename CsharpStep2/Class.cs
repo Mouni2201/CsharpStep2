@@ -13,6 +13,7 @@ class FieldDetails
 
 
     //these are non static fields/members/objects of class
+    //fields can give no value
     string fileName = "Convoid's.docx";
     string fileLocation = @"D:\training\documents";
     string fileSize = "5kb";
