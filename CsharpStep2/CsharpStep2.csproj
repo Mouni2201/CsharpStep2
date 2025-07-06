@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FieldDetails</StartupObject>
+    <StartupObject>MainProgramSystem.MainProgam</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,7 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include=".Constructors.cs" />
     <Compile Include="Class.cs" />
+    <Compile Include="Const&amp;Readonly.cs" />
+    <Compile Include="Namespaces\AllFiles.cs" />
+    <Compile Include="Namespaces\ExcelFile.cs" />
+    <Compile Include="Namespaces\MainProgam.cs" />
+    <Compile Include="Namespaces\PPTFiles.cs" />
+    <Compile Include="Namespaces\WordFiles.cs" />
     <Compile Include="properites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
