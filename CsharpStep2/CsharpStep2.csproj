@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MainProgramSystem.MainProgam</StartupObject>
+    <StartupObject>StaticAndNonStaticMembers.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -56,6 +56,9 @@
     <Compile Include="Namespaces\WordFiles.cs" />
     <Compile Include="properites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="static class.cs" />
+    <Compile Include="StaticvsNon-static\Instantiate.cs" />
+    <Compile Include="StaticvsNon-static\Members.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
