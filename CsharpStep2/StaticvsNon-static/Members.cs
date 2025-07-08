@@ -19,6 +19,12 @@ namespace StaticAndNonStaticMembers
         {
             return EmployeeList;
         }
+
+        //static constructor can create only once in the static class an can't pass any parameters.
+        //static EmployeeStaticLogger() //static constructor
+        //{
+        //    Console.WriteLine("Static Logger Initialized");
+        //}
     }
 
     public class  EmployeeNonStaticLogger

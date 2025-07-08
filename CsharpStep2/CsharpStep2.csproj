@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StaticAndNonStaticMembers.program</StartupObject>
+    <StartupObject>Family.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include=".Constructors.cs" />
     <Compile Include="Class.cs" />
     <Compile Include="Const&amp;Readonly.cs" />
+    <Compile Include="Implementation\Interface.cs" />
+    <Compile Include="Implementation\InterfaceInheritance.cs" />
     <Compile Include="Namespaces\AllFiles.cs" />
     <Compile Include="Namespaces\ExcelFile.cs" />
     <Compile Include="Namespaces\MainProgam.cs" />
@@ -57,6 +59,8 @@
     <Compile Include="properites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="static class.cs" />
+    <Compile Include="StaticvsNon-static\ExampleofStaticandNonstatic.cs" />
+    <Compile Include="StaticvsNon-static\Inheritance.cs" />
     <Compile Include="StaticvsNon-static\Instantiate.cs" />
     <Compile Include="StaticvsNon-static\Members.cs" />
   </ItemGroup>
