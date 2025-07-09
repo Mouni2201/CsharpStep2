@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Family.program</StartupObject>
+    <StartupObject>vehicleConfigurationSystem.program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include=".Constructors.cs" />
+    <Compile Include="Abstraction\Vehicle.cs" />
     <Compile Include="Class.cs" />
     <Compile Include="Const&amp;Readonly.cs" />
     <Compile Include="Implementation\Interface.cs" />
     <Compile Include="Implementation\InterfaceInheritance.cs" />
+    <Compile Include="Implementation\TVRemoteControlinterface.cs" />
     <Compile Include="Namespaces\AllFiles.cs" />
     <Compile Include="Namespaces\ExcelFile.cs" />
     <Compile Include="Namespaces\MainProgam.cs" />
