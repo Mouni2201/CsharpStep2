@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>vehicleConfigurationSystem.program</StartupObject>
+    <StartupObject>RuntimePolymorphismSytem.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,8 @@
     <Compile Include="Namespaces\MainProgam.cs" />
     <Compile Include="Namespaces\PPTFiles.cs" />
     <Compile Include="Namespaces\WordFiles.cs" />
+    <Compile Include="Polymorphism\CompiletimePolymorphism.cs" />
+    <Compile Include="Polymorphism\RuntimePolymorphism.cs" />
     <Compile Include="properites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="static class.cs" />

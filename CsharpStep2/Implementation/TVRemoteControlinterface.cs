@@ -82,7 +82,7 @@ namespace RemoteControlSystems
 
     class program
     {
-        static void main()
+        static void Main()
         {
             Iremote lgremote = new LGRemote();
             //here lgremote is not an instance of class. It is reference of interface
