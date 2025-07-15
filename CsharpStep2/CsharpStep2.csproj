@@ -59,6 +59,7 @@
     <Compile Include="Namespaces\PPTFiles.cs" />
     <Compile Include="Namespaces\WordFiles.cs" />
     <Compile Include="Polymorphism\CompiletimePolymorphism.cs" />
+    <Compile Include="Polymorphism\practice compiletime.cs" />
     <Compile Include="Polymorphism\RuntimePolymorphism.cs" />
     <Compile Include="properites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
